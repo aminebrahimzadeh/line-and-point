@@ -1,0 +1,14 @@
+  class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("ax+b please enter a and b:");
+            Console.WriteLine("please enter x and y:");
+            int a = int.Parse(Console.ReadLine());
+            int b = int.Parse(Console.ReadLine());
+            int x = int.Parse(Console.ReadLine());
+            int y = int.Parse(Console.ReadLine());
+            line s = new line(a, b, x, y);
+            Console.ReadKey();
+        }
+    }
